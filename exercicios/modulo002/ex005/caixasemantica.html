@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        nav{
+            background-color: rgb(75, 75, 75);
+            padding:3px;
+            box-shadow: 2px 2px 4px #0000007c;
+            border-radius: 5px
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: 3px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        article > p{
+            border: 10px solid transparent;
+            padding: 10px;
+            border-image: url('borda.png')22 repeat;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: lightslategrey;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            border-radius: 5px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 400px;
+            width: 400px;
+            margin: 10px;
+            background-color: blue;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esport Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla nostrum odio, iste sunt, quis praesentium necessitatibus cupiditate corrupti dolorem enim molestiae. Magnam excepturi totam maxime eos repudiandae aspernatur ad rem.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://www.instagram.com/renan_nardii/ ">Renan Nardi</a></p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+  
+body{
+ background-image: linear-gradient(45deg , rgba(46, 0, 1)10%,  rgb(117, 18, 21), rgb(167, 0, 0));
+ background-attachment: fixed;
+}
+h1{
+    color: rgb(161, 52, 55);
+}
+h2{
+    color: rgb(167, 0, 0);
+}
+h3{
+    color:rgb(117, 18, 21);
+}
+p{
+    color: rgba(46, 0, 1);
+}
